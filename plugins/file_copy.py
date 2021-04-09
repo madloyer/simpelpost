@@ -4,7 +4,7 @@ from config import Config
 import asyncio
 
 
-@Client.on_message(filters.channel & filters.document)
+@Client.on_message(filters.channel & filters.all)
 async def copy(bot, message):
     try:
         await message.copy(
