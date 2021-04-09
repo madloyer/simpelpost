@@ -2,8 +2,6 @@ import os
 from config import Config
 from translation import Translation
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-
 
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(bot, update) :
