@@ -1,6 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from config import Config
+import asyncio
 
 
 @Client.on_message(filters.channel & filters.document)
