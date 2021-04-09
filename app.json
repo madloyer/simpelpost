@@ -1,0 +1,39 @@
+{
+  "name": "Simple-Forward",
+  "description": "Telegram's Best Smart Plugin File Forword Bot",
+  "logo": "https://telegra.ph/file/31d1bbd9f975f9cc387f0.jpg",
+  "keywords": [
+    "telegram",
+    "best",
+    "file",
+    "forward",
+    "bot"
+  ],
+  "success_url": "https://t.me/DForDarkAngel",
+  "website": "https://github.com/Jijinr/Simple-Forward",
+  "repository": "https://github.com/Jijinr/Simple-Forward",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token from @BotFather",
+      "value": ""
+    },
+    "TO_CHANNEL": {
+      "description": "Enter Your channel Id must add -100",
+      "value": ""
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
